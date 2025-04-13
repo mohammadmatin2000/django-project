@@ -1,0 +1,28 @@
+<!doctype html>
+{% load static %}
+{% load humanize %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="fh5co_heading fh5co_heading_border_bottom pt-3 py-2 mb-4">Most Popular</div>
+    </div>
+    {% for posts in posts %}
+    <div class="row pb-3">
+        <div class="col-5 align-self-center">
+            <img src="{{ posts.image.url }}" alt="img" class="fh5co_most_trading"/>
+        </div>
+        <div class="col-7 paddding">
+            <a href="{% url 'blog:single' pid=posts.id %}" style="color: black"><div class="most_fh5co_treding_font">{{ posts.title }}</div></a>
+            <div class="most_fh5co_treding_font_123">{{ posts.published_date|naturalday }}</div>
+        </div>
+    </div>
+    {% endfor %}
+</body>
+</html>

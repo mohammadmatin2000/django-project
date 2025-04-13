@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">Tags</div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="fh5co_tags_all">
+        {% for post in posts %}
+            {% for tag in post.tags.all %}
+                <a href="{% url 'blog:tag' tag_name=tag.name %}" class="fh5co_tagg">{{ tag.name }}</a>
+            {% endfor %}
+        {% endfor %}
+    </div>
+</body>
+</html>

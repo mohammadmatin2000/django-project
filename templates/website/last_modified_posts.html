@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="col-12 col-md-12 col-lg-4 ">
+    <div class="footer_main_title py-3"> Last Modified Posts</div>
+    {% for posts in posts %}
+    <a href="{% url 'blog:single' pid=posts.id %}" class="footer_img_post_6"><img src="{{ posts.image.url }}" alt="img"/></a>
+    {% endfor %}
+</div>
+</body>
+</html>

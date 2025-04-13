@@ -1,0 +1,10 @@
+
+django-multi-captcha-admin
+django-robots
+django-simple-captcha
+django-summernote
+django-taggit
+django-utils-six
+Faker
+django-compressor
+django-debug-toolbar
