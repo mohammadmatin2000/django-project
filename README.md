@@ -1,10 +1,18 @@
-# 📰 Django-Project
+<h1 align="center"> 📰 Django-Project</h1>
 
-This project is a dynamic news portal web application built with **Django** and styled using **Bootstrap** and **Owl Carousel**. It utilizes a clean, responsive HTML5 template originally designed by [FreeHTML5.co](https://freehtml5.co).
+## This project is a dynamic news portal web application built with **Django** and styled using **Bootstrap** and **Owl Carousel**.
+## Demo
 
-## 🌐 Live Preview
+![Screenshot 2025-04-30 204845](https://github.com/user-attachments/assets/776439bc-0784-4835-8f95-23f87dd37f46)
+<hr>
 
-> [View Demo](#) – *(Insert link if hosted)*
+![Screenshot 2025-04-30 204900](https://github.com/user-attachments/assets/dc8d7120-dc4d-4e42-914c-49731f76e05d)
+<hr>
+
+![Screenshot 2025-04-30 204939](https://github.com/user-attachments/assets/dace3f73-b9d3-400e-938f-39a8ef4d2b75)
+<hr>
+
+![Screenshot 2025-04-30 204951](https://github.com/user-attachments/assets/5ecf1933-b9c3-4e61-9bf2-a967f97dd82a)
 
 ## 📁 Project Structure
 
@@ -41,5 +49,7 @@ This project is a dynamic news portal web application built with **Django** and 
    ```bash
    http://127.0.0.1:8000/
    ```
+### Database shema
+![Screenshot 2025-04-30 205118](https://github.com/user-attachments/assets/f78d893b-609c-414f-a0cd-94976ac0c06c)
 
   
